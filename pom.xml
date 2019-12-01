@@ -20,13 +20,6 @@
     <module>server</module>
     <module>webapp</module>
   </modules>
-<servers>
-   <server>
-      <id>nexus-snapshots</id>
-      <username>admin</username>
-      <password>admin123</password>
-   </server>
-</servers>
   <distributionManagement>
     <site>
       <id>site-server</id>
