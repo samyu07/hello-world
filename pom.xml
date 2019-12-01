@@ -28,11 +28,11 @@
     </site>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://35.154.207.24:8081/#admin/repository/my-project/</url>
+      <url>http://35.154.207.24:8081/#admin/repository/Project-Snapshot/</url>
     </snapshotRepository>
     <repository>
       <id>nexus-releases</id>
-      <url>http://35.154.207.24:8081/#admin/repository/my-project/</url>
+      <url>http://35.154.207.24:8081/#admin/repository/Release/</url>
     </repository>
   </distributionManagement>
 
