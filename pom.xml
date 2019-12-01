@@ -216,5 +216,14 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-
+<distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://35.154.207.24:8081/#admin/repository/my-project/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://35.154.207.24:8081/#admin/repository/my-project/</url>
+    </repository>
+  </distributionManagement>
 </project>
